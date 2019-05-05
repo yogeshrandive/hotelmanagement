@@ -1,0 +1,35 @@
+{
+  "name": "hotelmanagement",
+  "version": "1.0.0",
+  "description": "Hotel Booking System",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yogeshrandive/hotelmanagement.git"
+  },
+  "keywords": [
+    "hote",
+    "booking",
+    "system",
+    "management"
+  ],
+  "author": "Yogesh Randive",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yogeshrandive/hotelmanagement/issues"
+  },
+  "homepage": "https://github.com/yogeshrandive/hotelmanagement#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.0.0",
+    "express": "^4.16.4",
+    "express-validator": "^5.3.1",
+    "mysql2": "^1.6.5",
+    "path": "^0.12.7",
+    "promise": "^8.0.3",
+    "sequelize": "^5.8.4"
+  }
+}
