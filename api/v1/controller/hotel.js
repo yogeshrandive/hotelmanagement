@@ -11,7 +11,6 @@ module.exports = {
 			return res.status(443).json({errors : hotelRequest.error });
 
 		/*Post parameters */
-		console.log(req.body);
 		const data = await hotel.create(req.body);
 
 		console.log('after12312');

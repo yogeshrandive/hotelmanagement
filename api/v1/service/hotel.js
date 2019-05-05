@@ -4,7 +4,13 @@ const models = require('../db/models');
 module.exports ={
 	create : function(data){
 		return new Promise((resolve,reject) => {
-			resolve(data);
+
+			models.hotel
+				.create({name:data.name})
+				.then(hotel => {
+					resolve(hotel);
+				});
+
 		});
 	},
 
